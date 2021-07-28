@@ -1,0 +1,60 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427;
+.ventajas {
+    background-color: $color2;
+    color: $color8; 
+    .ventajas_article-tamaños{ 
+        text-align: center; 
+        h3{
+            font-size: 2rem;
+        } 
+        ul li{
+            font-size: 1.5rem;
+            padding: 10px 0px;
+        }
+    }
+} 
+.servicios-index{
+    background-image: url(../assets/fondoindex.png); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 4rem 0px; 
+    justify-content: center !important;  
+    text-align: center;
+      h2{
+          border-radius: 0px;
+          color: $color2;
+          text-align: center; 
+          font-size: 3rem;  
+          backdrop-filter: brum(10px);
+        }
+      .servicios_div-background{
+          background-color: $color2; 
+          margin: 0px 2px; 
+          border-radius: 30px; 
+          margin: 0px 1rem; 
+          margin-top: 2rem;
+          height: auto;  
+          width: auto;
+          
+          .servicios_i-posicion{
+              font-size: 5rem;
+              color: $color1; 
+              background-color: $color8; 
+              padding: 10px; 
+              border-radius: 25px;}
+              .servicios_h4-posiciones{
+                text-align: center;
+            } 
+            }
+        }  
+   
+        
+        

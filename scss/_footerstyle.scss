@@ -1,0 +1,67 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427;
+.footer-background {
+    background-color: $color9;
+    color: $color3; 
+    img{
+        display:block;
+        margin:auto;
+        }
+}  
+$colorhover: (
+    colorI: rgb(233, 15, 167),
+    colorY:red,
+    colorF: #4eb3d3,
+);
+.footer .redes ul li .inta {
+color: $color1;
+transition: color .3s; 
+:hover {color: map-get($colorhover, colorI);}
+}  
+.footer .redes ul li .face {
+    color: $color1;
+    transition: color .3s; 
+    :hover{color: map-get($colorhover, colorF);}
+    }  
+.footer .redes ul li .you {
+        color: $color1;
+        transition: color .3s; 
+        :hover{color: map-get($colorhover, colorY);}
+        }
+.footer_div-boxmodel{
+            border-top: 2px $color2 solid; 
+        } 
+.footer .redes ul li {
+                    display: inline; 
+                    a{display: inline;}
+                    i{font-size: 2rem; 
+                      margin: 10px 20px;}
+                }
+.footer_img-position {
+                    @include flex-row-center;
+                }
+.footer div img {
+                    height: 5rem;
+                } 
+.footer_contacto-tamaño{
+                    font-size: 1rem; 
+                    ul li i{font-size: 1.5rem;}
+                }
+.footer ul li  {
+                    margin: 1rem 0px;
+                } 
+.footer_div-margen {
+                    margin: 0px;
+                } 
+@mixin flex-row-center {
+    display: flex;
+                    flex-direction: row;
+                    justify-content: center !important;
+}

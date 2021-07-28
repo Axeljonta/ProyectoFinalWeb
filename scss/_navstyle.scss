@@ -1,0 +1,30 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427;
+.background-nav{
+    background-color: $color9; 
+    
+}
+.color-nav ul li a {
+    color:$color3 !important; 
+    font-size: 1.5rem;
+} 
+nav  .img_logo {
+    height: 8rem;
+} 
+.tamaño_nav ul li{
+    font-size: 1.5rem ;
+} 
+nav .navmio {
+    display: flex;
+    justify-content: flex-end;
+} 
+.boxmodel-nav ul li {
+    margin-left: 2rem ;
+    } 

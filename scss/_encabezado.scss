@@ -1,0 +1,33 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427;
+.encabezado {
+    background-image: url(../assets/encabezado.png); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+     div{
+         color: $color3; 
+         p i {font-size: 2rem;}  
+         h2 span{
+             background-color: $color8; 
+             }
+         p span{
+             background-color: $color8;
+            }
+        }
+    }
+.encabezado_div-posicion{
+        text-align: center; 
+        h2 span{font-size: 3rem; 
+            
+           }
+        p span{font-size: 1.5rem; 
+            
+          }
+    } 

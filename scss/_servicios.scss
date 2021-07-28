@@ -1,0 +1,41 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427; 
+.servicios1{ 
+    background-color: $color2;
+    color: $color8;  
+    
+    .servicios1_article{
+        padding: 1rem 0rem 1rem 0rem; 
+        border-top: 1px $color9 solid;
+        border-bottom: 1px $color9 solid; 
+        margin-right: 2rem;
+        div img{
+        height: 17rem; 
+        margin: auto;
+        padding: 0px 0rem ; 
+        display: block;
+        border-radius: 15px;
+    }
+    .servicios1_texto{ 
+        background-color: #7bccc4;  
+        border-radius: 15px;
+        h3{font-size: 2rem;} 
+        ul{font-size: 1.2rem; 
+        li{margin-top: 15px;}}  
+        p{text-align: center;}
+        a {background-color: $color8;
+           padding: 10px;
+           color: $color3; 
+           border-radius: 6px;
+           border: 2px solid $color9; 
+           } 
+    }
+   }
+}

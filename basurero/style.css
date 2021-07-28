@@ -1,0 +1,386 @@
+html body{
+    font-family: 'Sen', sans-serif ; 
+     
+    
+}
+/*colores a usar #114050-#166164-#0396A6-#13CFD1-#B5FFFF*/
+@media only screen and (min-width:0px) and (max-width:767px){
+    body { 
+        
+        text-align: center;
+    }
+    header {
+        font-size: 20px; 
+        background-color:#114050 ;
+          } 
+    header img{
+        height: 4rem;
+        margin-left: 15%; 
+        }
+    h3{margin: 0px;} 
+    ul{margin: 0px;}
+    header ul{
+        list-style: none; 
+        margin: 0px;
+    } 
+    header ul li {
+        display: inline-block; 
+        margin: 5px 10px
+
+        
+    }
+    header ul .menu{ 
+        color: #13CFD1; 
+
+        } 
+        /*fin header*/
+        /*inicio encabezado*/
+    .encabezado {
+        
+        background-image: url(../assets/encabezado.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        text-align: center;
+        color: #B5FFFF; 
+        
+    
+    } 
+    .encabezado h2 {
+        display: inline-block;
+        background-color:#166164 ;
+    } 
+    .encabezado p {
+        display: inline-block;
+        background-color:#166164 ;
+    } 
+    /*FIN ENCABEZADO*/
+    /*inicio cuerpo*/
+    .ventajasGen{
+        
+        background-color: #B5FFFF ;
+        color:#166164; 
+        
+    } 
+    .ventajasGen article h3 {
+        font-size: 24px;
+        background-color:#166164 ;
+        color: #B5FFFF;
+    } 
+    .ventajasGen article ul{
+        list-style: none;
+    }
+    .ventajasGen article ul li {
+        margin: 2rem 0rem 0rem 0rem; 
+        font-size: 20px;
+        font-weight: 700;
+    }
+    /*fin cuerpo*/
+    /*inicio servicios*/
+    .servicios{
+        
+        background-color: #B5FFFF ;
+        color:#166164; 
+        position: relative;
+        
+    } 
+    .servicios h3 {
+        font-size: 24px;
+        background-color:#166164 ;
+        color: #B5FFFF;
+    } 
+    .servicios div{
+        display: flex;
+        flex-direction: row; 
+        
+        } 
+    .servicios div article {
+            border-left: 1px #166164 solid;
+            border-right: 1px #166164 solid;
+        } 
+    .servicios div article .div1 {
+        padding: 1.5rem;
+        background-image: url(../assets/web\ logo.png);
+        background-repeat: no-repeat;
+        background-size: 2.5rem;
+        position: relative;
+        left: 4.5rem }
+    .servicios div article .div2 {
+            padding: 1.5rem;
+            background-image: url(../assets/web\ logo.png);
+            background-repeat: no-repeat;
+            background-size: 2.5rem;
+            position: relative;
+            left: 3rem
+    }
+    .servicios div article .div3 {
+        padding: 1.5rem;
+        background-image: url(../assets/web\ logo.png);
+        background-repeat: no-repeat;
+        background-size: 2.5rem;
+        }
+
+    /*fin servicios*/ 
+    /*seccion nosotros*/
+    .nosotros { 
+        background-color: #B5FFFF ;
+        color:#166164;
+        text-align: center;  
+              }
+    .nosotros h3 {
+        margin: 0px; 
+        font-size: 26px; 
+        background-color: #114050 ; 
+        color:#B5FFFF ;
+    } 
+    .nosotros div {
+        background-image: url(../assets/nosotros-img.png); 
+        background-size: 100%;  
+        background-repeat: no-repeat;
+        padding: 10rem;
+    } 
+    /*fin seccion nosotros*/
+    /*seccion contacto*/ 
+    form {
+        background-color: #B5FFFF ;
+        color:#166164; 
+        font-family: 'Sen', sans-serif ;
+    }
+    /*seccion agencia*/  
+    .agencia{
+        background-color: #B5FFFF ;
+        color:#166164; 
+    } 
+    /*seccion servicios*/
+    .servicios {
+        background-color: #B5FFFF ;
+        color:#166164; 
+    }
+    /*inicio footer*/
+    footer {
+        background-color:#114050 ;
+        color: #13CFD1; 
+        text-align: center; 
+        list-style: none;
+    } 
+    footer h3 {
+        font-size: 32px; 
+        background-color:#13CFD1;
+        color:#114050 ; 
+    } 
+    footer ul {
+        list-style: none;
+    }  
+    footer .contacto li {
+        margin: 10px 0px;
+    }
+    footer .redes li {
+        
+        display: inline;
+        padding: 0px 25px;
+    }
+    footer .redes  li img{
+        height: 2rem;  
+        margin: 10px 0px;
+       
+    } 
+    footer .redes {
+        background-color: #114050;
+         }
+        }
+@media only screen and (min-width:768px) and (max-width:1239px){
+    body { 
+        
+        text-align: center;
+    } 
+   
+    header {
+        background-color: #114050;
+        font-size: 35px;
+        } 
+    header img{
+        height: 10rem;
+        margin-left: 15%; 
+        }
+    h3{margin: 0px;} 
+    ul{margin: 0px;}
+    header ul{
+        list-style: none; 
+        margin: 0px;
+    } 
+    header ul li {
+        display: inline-block; 
+        margin: 5px 10px
+
+        
+    }
+    header ul .menu{ 
+        color: #13CFD1; 
+
+        } 
+        /*fin header*/
+        /*inicio encabezado*/
+    .encabezado {
+        
+        background-image: url(../assets/encabezado.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        text-align: center;
+        color: #B5FFFF; 
+        
+    
+    } 
+    .encabezado h2 {
+        display: block; 
+        margin: 0px;
+        background-color:#166164 ; 
+        font-size: 4rem;
+    } 
+    .encabezado p {
+        display: inline-block;
+        background-color:#166164 ; 
+        font-size: 2rem;
+    } 
+    /*FIN ENCABEZADO*/
+    /*inicio cuerpo*/
+    .ventajasGen{
+        
+        background-color: #B5FFFF ;
+        color:#166164; 
+        
+    } 
+    .ventajasGen article h3 {
+        font-size: 3rem;
+        background-color:#166164 ;
+        color: #B5FFFF;
+    } 
+    .ventajasGen article ul{
+        list-style: none;
+    }
+    .ventajasGen article ul li {
+        margin: 2rem 0rem 0rem 0rem; 
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    /*fin cuerpo*/
+    /*inicio servicios*/
+    .servicios{
+        
+        background-color: #B5FFFF ;
+        color:#166164; 
+        position: relative;
+        
+    } 
+    .servicios h3 {
+        font-size: 2.5rem;
+        background-color:#166164 ;
+        color: #B5FFFF;
+    } 
+    .servicios div{
+        display: flex;
+        flex-direction: row; 
+        
+        }  
+    .servicios div article {
+        font-size: 1.5rem;
+    }
+    .servicios div article {
+            border-left: 1px #166164 solid;
+            border-right: 1px #166164 solid;
+        } 
+    .servicios div article .div1 {
+        padding: 1.5rem;
+        background-image: url(../assets/web\ logo.png);
+        background-repeat: no-repeat;
+        background-size: 2.5rem;
+        position: relative;
+        left: 4.5rem }
+    .servicios div article .div2 {
+            padding: 1.5rem;
+            background-image: url(../assets/web\ logo.png);
+            background-repeat: no-repeat;
+            background-size: 2.5rem;
+            position: relative;
+            left: 3rem
+    }
+    .servicios div article .div3 {
+        padding: 1.5rem;
+        background-image: url(../assets/web\ logo.png);
+        background-repeat: no-repeat;
+        background-size: 2.5rem;
+        }
+
+    /*fin servicios*/ 
+    /*seccion nosotros*/
+    .nosotros { 
+        background-color: #B5FFFF ;
+        color:#166164;
+        text-align: center;  
+              }
+    .nosotros h3 {
+        margin: 0px; 
+        font-size: 2.5rem; 
+        background-color: #114050 ; 
+        color:#B5FFFF ;
+    } 
+    .nosotros p{
+        font-size: 1rem
+    }
+    .nosotros div {
+        background-image: url(../assets/nosotros-img.png); 
+        background-size: 100%;  
+        background-repeat: no-repeat;
+        padding: 10rem;
+    } 
+    /*fin seccion nosotros*/
+    /*seccion contacto*/ 
+    form {
+        background-color: #B5FFFF ;
+        color:#166164; 
+        font-family: 'Sen', sans-serif ;
+    }
+    /*seccion agencia*/  
+    .agencia{
+        background-color: #B5FFFF ;
+        color:#166164; 
+    } 
+    /*seccion servicios*/
+    .servicios {
+        background-color: #B5FFFF ;
+        color:#166164; 
+    }
+    /*inicio footer*/
+    footer {
+        background-color:#114050 ;
+        color: #13CFD1; 
+        text-align: center; 
+        list-style: none;
+    } 
+    footer h3 {
+        font-size: 3rem; 
+        background-color:#13CFD1;
+        color:#114050 ; 
+    } 
+    footer ul {
+        list-style: none;
+    }  
+    footer .contacto li {
+        margin: 10px 0px; 
+        font-size: 1.5rem
+    }
+    footer .redes li {
+        
+        display: inline;
+        padding: 0px 25px;
+    }
+    footer .redes  li img{
+        height: 2rem;  
+        margin: 10px 0px;
+       
+    } 
+    footer .redes {
+        background-color: #114050;
+         }
+} 
+@media only screen and (min-width:1240px){ 
+    li{display: inline;}
+}

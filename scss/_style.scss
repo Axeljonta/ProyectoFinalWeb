@@ -1,0 +1,14 @@
+@import "indexstyle"; 
+@import "navstyle"; 
+@import "footerstyle";
+@import "encabezado"; 
+@import "servicios";
+ul li {
+    list-style: none;
+} 
+.body{
+    @include overflow-none;
+} 
+@mixin overflow-none { 
+    overflow-x: hidden !important;
+    }
