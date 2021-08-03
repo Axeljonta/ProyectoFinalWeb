@@ -6,7 +6,12 @@ $color5:#2b8cbe ;
 $color6:#0868ac ;
 $color7:#084081;
 $color8:#06274d; 
-$color9:#041427;
+$color9:#041427; 
+@mixin flex-row-center {
+    display: flex;
+                    flex-direction: row;
+                    justify-content: center ;
+}
 .footer-background {
     background-color: $color9;
     color: $color3; 
@@ -45,7 +50,7 @@ transition: color .3s;
                       margin: 10px 20px;}
                 }
 .footer_img-position {
-                    @include flex-row-center;
+                    @include flex-row-center ;
                 }
 .footer div img {
                     height: 5rem;
@@ -60,8 +65,3 @@ transition: color .3s;
 .footer_div-margen {
                     margin: 0px;
                 } 
-@mixin flex-row-center {
-    display: flex;
-                    flex-direction: row;
-                    justify-content: center !important;
-}

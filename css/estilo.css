@@ -4787,7 +4787,7 @@ nav .navmio {
 .footer_img-position {
   display: flex;
   flex-direction: row;
-  justify-content: center !important; }
+  justify-content: center; }
 
 .footer div img {
   height: 5rem; }
@@ -4811,14 +4811,14 @@ nav .navmio {
     color: #7bccc4; }
     .encabezado div p i {
       font-size: 2rem; }
-    .encabezado div h2 span, .encabezado div .h2 span {
+    .encabezado div h1 span, .encabezado div .h1 span {
       background-color: #06274d; }
     .encabezado div p span {
       background-color: #06274d; }
 
 .encabezado_div-posicion {
   text-align: center; }
-  .encabezado_div-posicion h2 span, .encabezado_div-posicion .h2 span {
+  .encabezado_div-posicion h1 span, .encabezado_div-posicion .h1 span {
     font-size: 3rem; }
   .encabezado_div-posicion p span {
     font-size: 1.5rem; }
@@ -4857,6 +4857,9 @@ nav .navmio {
 
 ul li {
   list-style: none; }
+
+.body {
+  overflow-x: hidden !important; }
 
 .clearfix::after {
   display: block;
