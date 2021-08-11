@@ -4687,42 +4687,32 @@ textarea.form-control-lg {
 .offcanvas.show {
   transform: none; }
 
-.ventajas {
-  background-color: #a8ddb5;
-  color: #06274d; }
-  .ventajas .ventajas_article-tamaños {
-    text-align: center; }
-    .ventajas .ventajas_article-tamaños h3, .ventajas .ventajas_article-tamaños .h3 {
-      font-size: 2rem; }
-    .ventajas .ventajas_article-tamaños ul li {
-      font-size: 1.5rem;
-      padding: 10px 0px; }
-
 .servicios-index {
-  background-image: url(../assets/fondoindex.png);
+  background-color: #7bccc4;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 4rem 0px;
+  padding: 2rem 0px 4rem 0px;
   justify-content: center !important;
   text-align: center; }
   .servicios-index h2, .servicios-index .h2 {
+    border-bottom: 1px solid #041427;
     border-radius: 0px;
-    color: #a8ddb5;
+    color: #041427;
     text-align: center;
     font-size: 3rem;
     backdrop-filter: brum(10px); }
   .servicios-index .servicios_div-background {
-    background-color: #a8ddb5;
+    background-color: #041427;
     margin: 0px 2px;
     border-radius: 30px;
     margin: 0px 1rem;
     margin-top: 2rem;
     height: auto;
-    width: auto; }
+    width: auto;
+    color: #7bccc4; }
     .servicios-index .servicios_div-background .servicios_i-posicion {
       font-size: 5rem;
       color: #f7fcf0;
-      background-color: #06274d;
       padding: 10px;
       border-radius: 25px; }
     .servicios-index .servicios_div-background .servicios_h4-posiciones {
