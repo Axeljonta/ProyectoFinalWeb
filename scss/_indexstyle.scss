@@ -8,29 +8,40 @@ $color7:#084081;
 $color8:#06274d; 
 $color9:#041427;
 .servicios-index{
-    background-color:$color3; 
+    background-color:$color2; 
     background-repeat: no-repeat;
     background-size: cover; 
-    padding: 2rem 0px 4rem 0px; 
+    padding: 1rem 0px 4rem 0px; 
     justify-content: center !important;  
-    text-align: center;
+    text-align: center;  
+    p{
+      padding:20px;
+    }
+    
       h2{
           border-bottom: 1px solid $color9;
           border-radius: 0px; 
-          color: $color9;
-          text-align: center; 
+          color: $color9; 
+          text-align: left;
+          padding-left: 30px; 
           font-size: 3rem;  
           backdrop-filter: brum(10px);
         }
       .servicios_div-background{
-          background-color: $color9; 
+          background-color: $color8; 
           margin: 0px 2px; 
-          border-radius: 30px; 
+          border-radius: 8px; 
           margin: 0px 1rem; 
           margin-top: 2rem;
-          height: auto;  
-          width: auto;
-          color:$color3;
+          color:$color1; 
+          @media only screen and (min-width:992px){
+            width: 30rem; 
+          }
+          @media only screen and (min-width:768px) and (max-width:991px){
+            width: 25rem;
+            margin: 1rem;
+          }
+          
           
           .servicios_i-posicion{
               font-size: 5rem;

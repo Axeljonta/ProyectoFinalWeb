@@ -17,11 +17,11 @@ $color9:#041427;
         border-bottom: 1px $color9 solid; 
         margin-right: 2rem;
         div img{
-        height: 17rem; 
+        height: 25rem; 
         margin: auto;
         padding: 0px 0rem ; 
         display: block;
-        border-radius: 15px;
+        border-radius: 10px;
     }
     .servicios1_texto{ 
         background-color: #7bccc4;  
@@ -29,13 +29,19 @@ $color9:#041427;
         h3{font-size: 2rem;} 
         ul{font-size: 1.2rem; 
         li{margin-top: 15px;}}  
-        p{text-align: center;}
+        p{text-align: center; 
+            margin: 40px;
+            :hover{background-color: $color9;
+                color:$color4;}} }
         a {background-color: $color8;
-           padding: 10px;
+           padding: 10px; 
+
            color: $color3; 
            border-radius: 6px;
-           border: 2px solid $color9; 
-           } 
+           border: 2px solid $color9;  
+           text-decoration: none; 
+           
+           :hover{background-color: $color9;
+                  color:$color4;}} 
     }
    }
-}

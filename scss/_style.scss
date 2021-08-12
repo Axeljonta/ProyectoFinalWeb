@@ -4,13 +4,11 @@
 @import "encabezado"; 
 @import "servicios";
 @import "agencia";
-@mixin overflow-none { 
-    overflow-x: hidden !important;
-    }
+@import "nosotros";
 
 ul li {
     list-style: none;
 } 
 .body{
-    @include overflow-none;
+    overflow-x: hidden !important;
 } 

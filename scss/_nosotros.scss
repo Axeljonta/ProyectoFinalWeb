@@ -1,0 +1,56 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427; 
+.background-nosotros{
+    background-color: $color2;
+}
+.nosotros{ 
+    padding:2rem 0rem; 
+    @media only screen and (max-width:992px){
+        
+        }
+    .nosotros-texto{  
+        background-color: rgba(146, 135, 135, 0.24);
+        border-radius: 5px;
+        @media only screen and (max-width:992px){
+            height: auto;
+            width: auto;
+        } 
+        
+        h2{
+           font-size: 4rem;
+        } 
+        p{
+            font-size: 1.5rem;
+        }
+    } 
+    img{
+        @media only screen and (max-width:992px){
+            display: none;
+        }
+        border-radius: 20px;
+    }
+}
+.nosotros2 {
+    text-align: center; 
+    background-color: #a8ddb5;  
+    .nosotros2-art{
+        @media only screen and (max-width:660px){
+            margin: 2rem 0px;
+        }
+        background-color: #06274dcb;
+        border-radius: 10px;
+        margin: 30px;
+        color: $color1;
+    }
+    img{ 
+        border-radius: 140px;
+        height: 12rem;
+    }
+}

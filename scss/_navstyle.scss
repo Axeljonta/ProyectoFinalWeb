@@ -7,23 +7,29 @@ $color6:#0868ac ;
 $color7:#084081;
 $color8:#06274d; 
 $color9:#041427;
-.background-nav{
-    background-color: $color9; 
-    
+.background-nav{ 
+    @media only screen and (min-width:993px){
+    height: 9rem;}
+    background: linear-gradient(140deg,$color7 10%,$color8,$color9 50%);
+    } 
+.buttons{
+    @media only screen and (min-width:993px){
+    justify-content: flex-end; 
+    padding: 0px,30px,0px,0px;
+    }
 }
 .color-nav ul li a {
-    color:$color3 !important; 
-    font-size: 1.5rem;
+    color:$color3 ; 
+    font-size: 1.5rem;  
+    text-decoration: none;
+    margin: 20px;
+    :hover{color:white !important;}
 } 
 nav  .img_logo {
-    height: 8rem;
+    height: 5rem;
 } 
 .tamaño_nav ul li{
-    font-size: 1.5rem ;
-} 
-nav .navmio {
-    display: flex;
-    justify-content: flex-end;
+    font-size: 1.5rem ; 
 } 
 .boxmodel-nav ul li {
     margin-left: 2rem ;
