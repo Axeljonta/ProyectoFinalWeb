@@ -1,0 +1,55 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427;
+.agencia{
+    background-color: #a8ddb5; 
+    z-index: -1; 
+}
+.agencia .title-box {
+    text-align: center; 
+    font-size: 3rem; 
+    color:#06274d;
+} 
+.agencia-style{
+    margin: 1rem 0rem;  
+    color: $color9; 
+    text-align: center; 
+    position: relative; 
+    i {
+        border-radius: 50%;
+        background-color: #0c417c5b; 
+        padding: 30px;
+    } 
+    .circulo{
+        position: absolute; 
+        background-color: #002c6e5b;
+        border-radius: 140px; 
+        height: 80px;
+        width: 80px;
+        right: 200px;
+        bottom: 120px; 
+        z-index: 0;  
+        @media only screen and (max-width:992px){
+            display: none;
+        }
+    }
+    h3{font-weight: 500;}
+    p{font-weight: 300; 
+    padding-bottom: 2rem; 
+    margin-top: 1rem;}
+    :hover{
+        border-radius: 15px !important;
+        background-color: $color8;
+        color: $color2;  
+        i{background-color: $color8;}
+        .circulo{ display: none;}
+        .title-box{color: $color2;}
+    }
+}
+

@@ -4697,13 +4697,17 @@ textarea.form-control-lg {
   .servicios-index p {
     padding: 20px; }
   .servicios-index h2, .servicios-index .h2 {
-    border-bottom: 1px solid #041427;
     border-radius: 0px;
     color: #041427;
-    text-align: left;
+    text-align: center;
     padding-left: 30px;
     font-size: 3rem;
-    backdrop-filter: brum(10px); }
+    backdrop-filter: brum(10px);
+    font-weight: 500; }
+  .servicios-index h5, .servicios-index .h5 {
+    position: relative;
+    bottom: 10px;
+    font-weight: 300; }
   .servicios-index .servicios_div-background {
     background-color: #06274d;
     margin: 0px 2px;
@@ -4711,6 +4715,10 @@ textarea.form-control-lg {
     margin: 0px 1rem;
     margin-top: 2rem;
     color: #f7fcf0; }
+    .servicios-index .servicios_div-background p {
+      font-weight: 200; }
+    .servicios-index .servicios_div-background a {
+      color: #f7fcf0; }
     @media only screen and (min-width: 992px) {
       .servicios-index .servicios_div-background {
         width: 30rem; } }
@@ -4877,6 +4885,53 @@ nav .img_logo {
         background-color: #041427;
         color: #4eb3d3; }
 
+.agencia {
+  background-color: #a8ddb5;
+  z-index: -1; }
+
+.agencia .title-box {
+  text-align: center;
+  font-size: 3rem;
+  color: #06274d; }
+
+.agencia-style {
+  margin: 1rem 0rem;
+  color: #041427;
+  text-align: center;
+  position: relative; }
+  .agencia-style i {
+    border-radius: 50%;
+    background-color: #0c417c5b;
+    padding: 30px; }
+  .agencia-style .circulo {
+    position: absolute;
+    background-color: #002c6e5b;
+    border-radius: 140px;
+    height: 80px;
+    width: 80px;
+    right: 200px;
+    bottom: 120px;
+    z-index: 0; }
+    @media only screen and (max-width: 992px) {
+      .agencia-style .circulo {
+        display: none; } }
+  .agencia-style h3, .agencia-style .h3 {
+    font-weight: 500; }
+  .agencia-style p {
+    font-weight: 300;
+    padding-bottom: 2rem;
+    margin-top: 1rem; }
+  .agencia-style :hover {
+    border-radius: 15px !important;
+    background-color: #06274d;
+    color: #a8ddb5; }
+    .agencia-style :hover i {
+      background-color: #06274d; }
+    .agencia-style :hover .circulo {
+      display: none; }
+    .agencia-style :hover .title-box {
+      color: #a8ddb5; }
+
 .background-nosotros {
   background-color: #a8ddb5; }
 
@@ -4913,6 +4968,10 @@ nav .img_logo {
   .nosotros2 img {
     border-radius: 140px;
     height: 12rem; }
+
+#body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400; }
 
 ul li {
   list-style: none; }

@@ -7,14 +7,14 @@
     <title>Agencia de marketing Rocket</title>
     <link rel="shortcut icon" href="../logo.jpg" >
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bed1783583.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
-<body id="grillaAgencia">
+<body id="body">
   <header">        
     <nav class="navbar navbar-expand-lg navbar-light background-nav tamaño-nav color-nav boxmodel-nav">
         <a class="navbar-brand" href="#"><img src="../assets/logopng1.png.jpg" alt="logotipo" class="img-fluid img_logo"></a>
@@ -46,30 +46,78 @@
   <div class="container encabezado_div-color encabezado_div-posicion"> 
     <div class="row ">
       <div class="col-md-12 col-xs-12 " >
-        <div data-aos="flip-left"> <h1 class="encabezado_h1 mt-5 "><span>Agencia ROCKET</span></h1></div><br>
-        <P class="encabezado_p mt-5 mb-5 "><span>Mucho mas que una agencia de marketing y desarrollo web...<samp><i class="fas fa-rocket"></i></samp></span></P>
+        <div data-aos="flip-left" data-aos-duration="1500"> <h1 class="encabezado_h1 mt-5 "><span>Agencia ROCKET</span></h1></div><br>
+        <P class="encabezado_p mt-5 mb-5"data-aos="flip-left" data-aos-duration="1500"><span>Mucho mas que una agencia de marketing y desarrollo web...<samp><i class="fas fa-rocket"></i></samp></span></P>
       </div> 
     </div>
   </div>
 </div>  
 </section>
     <section class="agencia">
-        <article>
-            <h4>Somos profecionales</h4> 
-            <p>Siempre buscamos la exelecia y entregar el mejor servicio para que alcances tus objetivos</p>
-        </article>
-        <article>
-            <h4>Somos comprometidos</h4> 
-            <p>Entregamos los pedidos u objetivos siempre en tiempo y forma</p>
-        </article>
-        <article>
-            <h4>Creamos juntos a vos</h4> 
-            <p>Trabajamos a la par suyo escuchando que es lo que quiere y ofreciendole las mejores alternativas para conceguirlo</p>
-        </article>
-        <article>
-            <h4>Te ayudamos en tu negocio</h4> 
-            <p>Te ayudamos a crecer y escalar tu negocia, para que tenga mas llegada al publico</p>
-        </article>
+        <article class="container"> 
+          <div class="row">
+            <div class="col-lg-4 col-md-12 agencia-style">
+                <div class="services-block bg-light-gray padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".2s" style="visibility: visible;">
+                    <div class="title-box margin-25px-bottom sm-margin-15px-bottom agencia-img"> 
+                      <div class="circulo"></div>
+                       <i class="fas fa-desktop text-theme-color"></i> 
+                    </div>
+                    <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Somos profecionales</h3>
+                    <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">Siempre buscamos la exelecia y entregar el mejor servicio para que alcances tus objetivos</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 agencia-style ">
+                <div class="services-block bg-light-gray padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".4s" style="visibility: visible;">
+                    <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                      <div class="circulo"></div>
+                        <i class="fas fa-cart-plus text-theme-color"></i>
+                       </div>
+                    <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Creamos juntos a vos</h3>
+                    <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">Trabajamos a la par suyo escuchando que es lo que quiere y ofreciendole las mejores alternativas para conceguirlo</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 agencia-style">
+                <div class="services-block bg-light-gray padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".6s" style="visibility: visible;">
+                    <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                      <div class="circulo"></div>
+                        <i class="fas fa-cogs text-theme-color"></i>
+                    </div>
+                    <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Te ayudamos en tu negocio</h3>
+                    <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">Te ayudamos a crecer y escalar tu negocia, para que tenga mas llegada al publico</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 agencia-style">
+              <div class="services-block bg-light-gray padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".2s" style="visibility: visible;">
+                  <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                    <div class="circulo"></div>
+                      <i class="fas fa-desktop text-theme-color"></i>
+                  </div>
+                  <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Somos profecionales</h3>
+                  <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">Siempre buscamos la exelecia y entregar el mejor servicio para que alcances tus objetivos</p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-12 agencia-style">
+            <div class="services-block bg-light-gray padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".2s" style="visibility: visible;">
+                <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                  <div class="circulo"></div>
+                    <i class="fas fa-desktop text-theme-color"></i>
+                </div>
+                <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Somos profecionales</h3>
+                <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">Siempre buscamos la exelecia y entregar el mejor servicio para que alcances tus objetivos</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 agencia-style">
+          <div class="services-block bg-light-gray padding-45px-tb padding-25px-lr sm-padding-35px-tb sm-padding-20px-lr xs-padding-30px-tb xs-padding-15px-lr last-paragraph-no-margin wow fadeInUp" data-wow-delay=".2s" style="visibility: visible;">
+              <div class="title-box margin-25px-bottom sm-margin-15px-bottom">
+                <div class="circulo"></div>
+                  <i class="fas fa-desktop text-theme-color"></i>
+              </div>
+              <h3 class="margin-10px-bottom font-size22 md-font-size20 xs-font-size18">Somos profecionales</h3>
+              <p class="font-size16 line-height-28 sm-font-size14 sm-line-height-24">Siempre buscamos la exelecia y entregar el mejor servicio para que alcances tus objetivos</p>
+          </div>
+      </div>
+          </div> 
+      </article>
     </section>
     <!--inico footer-->
     <footer class="footer footer-background"> 

@@ -5,7 +5,10 @@
 @import "servicios";
 @import "agencia";
 @import "nosotros";
-
+#body{
+   font-family: 'Exo 2', sans-serif;
+   font-weight: 400 ;
+}
 ul li {
     list-style: none;
 } 

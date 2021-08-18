@@ -19,23 +19,31 @@ $color9:#041427;
     }
     
       h2{
-          border-bottom: 1px solid $color9;
           border-radius: 0px; 
           color: $color9; 
-          text-align: left;
+          text-align: center;
           padding-left: 30px; 
           font-size: 3rem;  
-          backdrop-filter: brum(10px);
-        }
+          backdrop-filter: brum(10px); 
+          font-weight: 500;
+        } 
+        h5{position: relative;
+          bottom:10px; 
+          font-weight:300; 
+          }
       .servicios_div-background{
           background-color: $color8; 
           margin: 0px 2px; 
           border-radius: 8px; 
           margin: 0px 1rem; 
           margin-top: 2rem;
-          color:$color1; 
+          color:$color1;   
+          p{font-weight: 200;}
+          a {
+             color: #f7fcf0;
+            }
           @media only screen and (min-width:992px){
-            width: 30rem; 
+            width: 30rem;  
           }
           @media only screen and (min-width:768px) and (max-width:991px){
             width: 25rem;
