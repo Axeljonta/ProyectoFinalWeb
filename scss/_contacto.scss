@@ -1,0 +1,26 @@
+$color1:#f7fcf0;
+$color2:#a8ddb5;
+$color3:#7bccc4 ;
+$color4:#4eb3d3;
+$color5:#2b8cbe ;
+$color6:#0868ac ;
+$color7:#084081;
+$color8:#06274d; 
+$color9:#041427;
+.form{
+    @media only screen and (min-width:761px){
+        width: 600px; 
+        height: 1098px;
+      }
+    @media only screen and (max-width:762px) and (min-width:401px) {
+        width: 400px; 
+        height: 1098px;
+      }
+    @media only screen and (max-width:400px) {
+        width: 280px; 
+        height: 1098px;
+    }
+} 
+.formulario {
+    background-color: $color3 ;
+}

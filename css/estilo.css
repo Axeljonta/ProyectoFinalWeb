@@ -4969,6 +4969,24 @@ nav .img_logo {
     border-radius: 140px;
     height: 12rem; }
 
+@media only screen and (min-width: 761px) {
+  .form {
+    width: 600px;
+    height: 1098px; } }
+
+@media only screen and (max-width: 762px) and (min-width: 401px) {
+  .form {
+    width: 400px;
+    height: 1098px; } }
+
+@media only screen and (max-width: 400px) {
+  .form {
+    width: 280px;
+    height: 1098px; } }
+
+.formulario {
+  background-color: #7bccc4; }
+
 #body {
   font-family: 'Exo 2', sans-serif;
   font-weight: 400; }
