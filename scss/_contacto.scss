@@ -7,9 +7,12 @@ $color6:#0868ac ;
 $color7:#084081;
 $color8:#06274d; 
 $color9:#041427;
+.formu{
+  text-align: center;
+} 
 .form{
     @media only screen and (min-width:761px){
-        width: 600px; 
+        width: 760px; 
         height: 1098px;
       }
     @media only screen and (max-width:762px) and (min-width:401px) {
@@ -22,5 +25,5 @@ $color9:#041427;
     }
 } 
 .formulario {
-    background-color: $color3 ;
-}
+    background-color: $color2 ;
+} 

@@ -4704,6 +4704,8 @@ textarea.form-control-lg {
     font-size: 3rem;
     backdrop-filter: brum(10px);
     font-weight: 500; }
+  .servicios-index h3, .servicios-index .h3 {
+    padding: 0px 10px; }
   .servicios-index h5, .servicios-index .h5 {
     position: relative;
     bottom: 10px;
@@ -4721,7 +4723,8 @@ textarea.form-control-lg {
       color: #f7fcf0; }
     @media only screen and (min-width: 992px) {
       .servicios-index .servicios_div-background {
-        width: 30rem; } }
+        width: 30rem;
+        height: 23rem; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .servicios-index .servicios_div-background {
         width: 25rem;
@@ -4824,6 +4827,10 @@ nav .img_logo {
 @media only screen and (max-width: 1239px) {
   footer {
     text-align: center !important; } }
+
+.serv li a {
+  text-decoration: none;
+  color: #7bccc4; }
 
 .encabezado {
   background-image: url(../assets/encabezado.png);
@@ -4969,9 +4976,12 @@ nav .img_logo {
     border-radius: 140px;
     height: 12rem; }
 
+.formu {
+  text-align: center; }
+
 @media only screen and (min-width: 761px) {
   .form {
-    width: 600px;
+    width: 760px;
     height: 1098px; } }
 
 @media only screen and (max-width: 762px) and (min-width: 401px) {
@@ -4985,7 +4995,7 @@ nav .img_logo {
     height: 1098px; } }
 
 .formulario {
-  background-color: #7bccc4; }
+  background-color: #a8ddb5; }
 
 #body {
   font-family: 'Exo 2', sans-serif;
@@ -4996,6 +5006,9 @@ ul li {
 
 .body {
   overflow-x: hidden !important; }
+
+.row {
+  --bs-gutter-x: 0rem !important; }
 
 .clearfix::after {
   display: block;
